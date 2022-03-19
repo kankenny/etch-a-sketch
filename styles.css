@@ -19,6 +19,7 @@ body{
     color: darkblue;    
     height:150px;
     text-shadow: 2px 2px BLACK;
+    font-family: OCR A Std, monospace;
 }
 
 .buttons{
@@ -77,6 +78,16 @@ body{
     align-items: center;
     justify-content: center;
     background: #eee;
+  }
+
+  .fa-github {
+    color: var(--primary-dark);
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .fa-github:hover {
+    transform: rotate(360deg) scale(1.2);
   }
 
 
