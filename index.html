@@ -13,11 +13,21 @@
     <div class="container">
         <div class="title">Etch-a-sketch</div>
         <div class="buttons">
-            <button>Black</button>
-            <button>Grayscale</button>
-            <button>RGB</button>
-            <button>Eraser</button>
-            <button>Clear</button>
+            <button class="black">BLACK</button>
+            <button class="gray">GRAYSCALE</button>
+            <button class="rgb">RGB</button>
+            <button class="eraser">ERASER</button>
+            <button class="clear">CLEAR</button>
+            <button class="resize">RESIZE</button>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="75" value="38" class="slider" id="myRange">
+                <div>
+                    <span id="row-value"></span>
+                    <span> x </span>
+                    <span id="column-value"></span>
+                </div>
+            </div>
+            <div class="output"></div>
         </div>
         <div class="grid"></div>
         <div class="footer">All rights reserved. Copyright Kennette James Maddela</div>
