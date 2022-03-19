@@ -18,7 +18,7 @@ body{
     font-size:40px;
     color: darkblue;    
     height:150px;
-    text-shadow: 1px 1px BLACK;
+    text-shadow: 2px 2px BLACK;
 }
 
 .buttons{
@@ -32,6 +32,8 @@ body{
     border-radius: 5px;
     box-shadow: 2px 2px black;
     color:#eee;
+    font-size:18px;
+    font-weight: bold;
 }   
 .slidecontainer{
     margin-bottom: 10px;
@@ -56,7 +58,7 @@ body{
     width: 750px;
     border:5px;
     display:grid;
-    box-shadow: 4px 4px black;
+    box-shadow: 6px 6px black;
 
 }
 
@@ -103,6 +105,6 @@ body{
     appearance: none;
     width: 25px; /* Set a specific slider handle width */
     height: 25px; /* Slider handle height */
-    background: #04AA6D; /* Green background */
+    background: darkblue;  /* Green background */
     cursor: pointer; /* Cursor on hover */
   }
